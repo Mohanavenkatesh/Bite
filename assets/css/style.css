@@ -1,0 +1,145 @@
+body{
+    background-image: url(../img/adrian-infernus-GLf7bAwCdYg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* navbar sticy */
+
+/* navbar lists */
+.navbarhome{
+    font-size: 14px;
+}
+.navbarshop{
+    font-size: 14px;
+}
+.navbarabout{
+    font-size: 14px;
+}
+.navbarour{
+    font-size: 14px;
+}
+/* navbar lists hover*/
+.navbarhome:hover{
+    transform: scale(1.10);
+}
+.navbarshop:hover{
+    transform: scale(1.10);
+}
+.navbarabout:hover{
+    transform: scale(1.10);
+}
+.navbarour:hover{
+    transform: scale(1.10);
+}
+/* navbar  login and add to cart */
+.iconhover:hover{
+    transform: scale(1.15);
+    transition: all 0.2s linear;
+}
+/* .hero-section */
+.herosech1{
+    font-size: 60px;
+}
+.herosecp{
+    font-size: 22px;
+}
+.herosecbtn{
+    padding: 10px 150px 10px 150px;
+}
+.herosecbtn:hover{
+    transform: scale(1.05);
+    transition: all 0.2s linear;
+}
+
+.animation-btn:hover{
+    transform: scale(1.05);
+    transition: all 0.2s linear;
+}
+
+.animaation:hover{
+    transform: scale(1.05);
+    transition: all 0.2s linear;
+}
+
+.navbar button:hover::after{
+    width: 100%;
+}
+.navbar{
+    height: 100vh;
+}
+.navbar .col-lg{
+    width: fit-content;
+}
+.item {
+    width: 120px;
+}
+.whybits-icon{
+    font-size: 35px;
+}
+.fa-arrow-up{
+    font-size: 40px;
+    position: relative;
+    animation: fa-arrow-up 2s infinite;
+    animation-timing-function: linear;
+}
+.fa-arrow-up:hover{
+transform: scale(1.20);
+}
+@keyframes fa-arrow-up {
+    from{top:30px}
+    to{top: 0px;}
+}
+.linkshover:hover{
+    transform: scale(1.02);
+}
+
+.hero-section-btn:hover {
+    transform: scale(1.03);
+}
+.howtousesection-btn:hover {
+    transform: scale(1.03);
+}
+
+#howtousesectionimg:hover {
+    transform: scale(1.03);
+}
+.howtousesection-btn:hover {
+    transform: scale(1.03);
+}
+
+.about-div-sm{
+    background-color: aquamarine;
+    width: fit-content;
+}
+
+.nav-link:hover{
+transform: scale(1.1);
+}
+
+@media screen and (max-width:500px) {
+    .hero-section {
+        padding: 10px;
+    }
+    .hero-section-btn {
+        padding: 10px 10px 10px 10px;
+    }
+    .whybits-div-two{
+        display: block;
+    }
+}
+.aboutcontenth1{
+    padding: 150px 0px 150px 0px;
+    font-size: 60px;
+}
+
+/* hovers (shop by catagaory)*/
+.ShopByCategory:hover {
+    transform: scale(1.03);
+    transition: all 0.3s linear;
+}
+
+.faqbackground{
+    background-color: transparent;
+}
+

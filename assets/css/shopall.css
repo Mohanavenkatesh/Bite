@@ -1,0 +1,71 @@
+body{
+    background-image: url(../img/adrian-infernus-GLf7bAwCdYg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.hero-section{
+    padding: 0;
+}
+
+/* navbar lists */
+.navbarshop{
+    font-size: 14px;
+}
+.navbarabout{
+    font-size: 14px;
+}
+.navbarour{
+    font-size: 14px;
+}
+/* navbar lists hover*/
+.navbarhome:hover{
+    transform: scale(1.10);
+}
+.navbarshop:hover{
+    transform: scale(1.10);
+}
+.navbarabout:hover{
+    transform: scale(1.10);
+}
+.navbarour:hover{
+    transform: scale(1.10);
+}
+
+.ourImpacth1 {
+    font-size: 45px;
+}
+
+.linkshover:hover {
+    transform: scale(1.02);
+}
+.fa-arrow-up:hover {
+    transform: scale(1.20);
+}
+.fa-arrow-up {
+    font-size: 40px;
+}
+
+.fa-arrow-up{
+    font-size: 40px;
+    position: relative;
+    animation: fa-arrow-up 2s infinite;
+    animation-timing-function: linear;
+}
+.fa-arrow-up:hover{
+transform: scale(1.20);
+}
+@keyframes fa-arrow-up {
+    from{top:30px}
+    to{top: 0px;}
+}
+.animation:hover{
+transform: scale(1.05);
+transition: all 0.2s linear;
+}
+
+li:hover{
+transform: scale(1.1);
+    }
+    
