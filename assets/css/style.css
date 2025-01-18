@@ -1,43 +1,12 @@
-body{
-    background-image: url(../img/adrian-infernus-GLf7bAwCdYg-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-/* navbar sticy */
-
-/* navbar lists */
-.navbarhome{
-    font-size: 14px;
-}
-.navbarshop{
-    font-size: 14px;
-}
-.navbarabout{
-    font-size: 14px;
-}
-.navbarour{
-    font-size: 14px;
-}
-/* navbar lists hover*/
-.navbarhome:hover{
-    transform: scale(1.10);
-}
-.navbarshop:hover{
-    transform: scale(1.10);
-}
-.navbarabout:hover{
-    transform: scale(1.10);
-}
-.navbarour:hover{
-    transform: scale(1.10);
-}
-/* navbar  login and add to cart */
-.iconhover:hover{
-    transform: scale(1.15);
-    transition: all 0.2s linear;
-}
 /* .hero-section */
+
+.herosec{
+    height: 100vh;
+   background-image: url(../img/herosection.jpg);
+   background-size: cover;
+}
+
 .herosech1{
     font-size: 60px;
 }
@@ -134,6 +103,7 @@ transform: scale(1.1);
 }
 
 /* hovers (shop by catagaory)*/
+
 .ShopByCategory:hover {
     transform: scale(1.03);
     transition: all 0.3s linear;
