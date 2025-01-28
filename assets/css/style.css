@@ -1,3 +1,6 @@
+
+
+
 /* .hero-section */
 
 .herosec {
@@ -185,3 +188,9 @@
 
 }
 
+
+.footer-link:hover{
+
+    text-decoration: underline;
+
+}

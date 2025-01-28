@@ -25,12 +25,13 @@
 
   <!-- navigation bar & hero section -->
 
-  <nav class="navbar navbar-expand-lg py-3 border-black border   " aria-label="Thirteenth navbar example">
+  <nav id="footer" class="navbar navbar-expand-lg py-3 border-black border   " aria-label="Thirteenth navbar example">
     <div class="container-fluid ">
 
-
-      <img src="./assets/img/logo.png" alt="">
-      <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="true" aria-label="Toggle navigation">
+      <a href="./index.html"><img src="./assets/img/logo.png" alt=""></a>
+      <button class="navbar-toggler border-white bg-white " type="button" data-bs-toggle="collapse"
+        data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11"
+        aria-expanded="true" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -38,7 +39,7 @@
         <a class="navbar-brand col-lg-3 me-0" href="#">
           <img class="d-none" src="./assets/img/logo.png" alt="">
         </a>
-        <ul class="navbar-nav col-lg-6 justify-content-lg-center">
+        <ul class="navbar-nav col-lg-6 align-items-center justify-content-lg-center">
           <li class="nav-item">
           <li><a href="#" class="nav-link px-2 text-dark">Home</a></li>
           </li>
@@ -51,15 +52,13 @@
           </li>
 
         </ul>
-        <div class="d-lg-flex  gap-1 col-lg-3 justify-content-lg-end">
+        <div class="d-flex  justify-content-center gap-2 col-lg-3 p-3">
           <a href="./signup.html"><button type="button" class="btn btn-dark">Signup</button></a>
           <a href="./login.html"><button type="button" class="btn btn-outline-dark">Login</button></a>
         </div>
       </div>
     </div>
   </nav>
-
- 
 
   <!-- hero section -->
 
@@ -522,84 +521,77 @@
   </div>
 
   <!-- footer section -->
-  <div class="container-fluid  py-4 footer border bg-black text-light">
-    <div class="row">
-      <div class="col-lg-4 p-5">
-        <h6 class="py-1">Stay in the Know</h6>
-        <h4 class="py-4">Sign up for 10% off your first order.</h4>
-        <div class="input-group mb-3">
-          <input type="text" class="form-control rounded me-1" placeholder="Enter Email address"
-            aria-label="Recipient's username" aria-describedby="button-addon2">
-          <button class="btn btn-outline-secondary rounded text-light" type="button"
-            id="button-addon2">Subscribe</button>
-        </div>
-      </div>
-      <div class="col-lg-8 p-5 ">
-        <div class="row">
-          <div class="col-lg-3">
-            <div class="row">
-              <h5>SHOP</h5>
-              <a href="./shopall.html" class=" text-light py-1 linkshover">All Products</a>
-              <a href="./shopall.html#oralcare" class=" text-light py-1 linkshover">Oral Care</a>
-              <a href="./shopall.html#bodycare" class="text-light  py-1 linkshover">Body</a>
-              <a href="./shopall.html#sets" class="text-light  py-1 linkshover">Sets</a>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="row">
-              <h5>LEARN</h5>
-              <a href="" class=" py-1 text-light linkshover">Ingrediens</a>
-              <a href="" class=" py-1 text-light linkshover">Sustainablility</a>
-              <a href="" class=" py-1 text-light linkshover">About Us</a>
-              <a href="" class=" py-1 text-light linkshover">Store Locator</a>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="row">
-              <h5>HELP</h5>
-              <a href="" class=" py-1 text-light linkshover">Account</a>
-              <a href="" class=" py-1 text-light linkshover">Whole Sale</a>
-              <a href="" class=" py-1 text-light linkshover">FAQs</a>
-              <a href="" class=" py-1 text-light linkshover">Sitemap</a>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="row">
-              <h5>FOLLOW</h5>
-              <a href="https://www.instagram.com/bite/" class=" text-light py-1 linkshover"
-                target="_blank">Instagram</a>
-              <a href="https://x.com/i/flow/login?redirect_after_login=%2Fbitetoothpaste"
-                class=" text-light py-1 linkshover" target="_blank">Twitter</a>
-              <a href="https://www.tiktok.com/notfound" class=" text-light py-1 linkshover" target="_blank">Tik
-                Tok</a>
-              <a href="https://www.facebook.com/bitetoothpastebits" class=" text-light py-1 linkshover"
-                target="_blank">Facebook</a>
-            </div>
-          </div>
 
-          <div class="div pt-5">
 
-            <a href="" class=" text-light pe-3 linkshover">Privacy Policy</a>
-            <a href="" class=" text-light pe-3 linkshover">Terms of Service</a>
-            <a href="" class=" text-light pe-3 linkshover">Shopping policy</a>
-            <a href="" class=" text-light pe-3 linkshover"> hello@bitetoothpastebits.com</a>
+  <div class="container-fluid bg-black text-white">
+    <footer class="container py-5">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5 >SHOP</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link footer-link  p-0 text-white">All Products</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link footer-link  p-0 text-white">Oral Care</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link footer-link  p-0 text-white">Body</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link footer-link  p-0 text-white">Sets</a></li>
 
-          </div>
-
+          </ul>
         </div>
 
+        <div class="col-6 col-md-2 mb-3">
+          <h5>HELP</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link footer-link  p-0 text-white">Account</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link footer-link  p-0 text-white">Whole Sale</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link footer-link  p-0 text-white">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link footer-link  p-0 text-white">Sitemap</a></li>
+
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-2 mb-3">
+          <h5>FOLLOW</h5>
+          <ul class="nav flex-column">
+            <a href="https://www.instagram.com/bite/"
+              class=" text-light py-1 linkshover footer-link ">Instagram</a>
+            <a href="https://x.com/i/flow/login?redirect_after_login=%2Fbitetoothpaste"
+              class=" text-light py-1 linkshover footer-link ">Twitter</a>
+            <a href="https://www.tiktok.com/notfound" class=" footer-link  text-light py-1 linkshover">Tik
+              Tok</a>
+            <a href="https://www.facebook.com/bitetoothpastebits"
+              class=" text-light py-1 linkshover footer-link ">Facebook</a>
+          </ul>
+        </div>
+
+
+
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Stay in the Know</h5>
+            <p>Sign up for 10% off your first order.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-dark" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
       </div>
-    </div>
 
-
-    <!-- Fav -->
-
-    <div class="fab d-flex justify-content-end fs-5 ">
-      <a href="#footer" class="text-light px-5"><i class="fa-solid fa-arrow-up"></i></a>
-    </div>
-
-    <p class="text-center text-decoration-none linkshover pt-5">© 2024 Mohan. All Rights Reserved.</p>
-
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>© 2024 Company, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                <use xlink:href="#twitter"></use>
+              </svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                <use xlink:href="#instagram"></use>
+              </svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                <use xlink:href="#facebook"></use>
+              </svg></a></li>
+        </ul>
+      </div>
+    </footer>
   </div>
 
 
