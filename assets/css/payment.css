@@ -12,3 +12,26 @@
     text-decoration: underline;
 
 }
+.position_for_fab_button {
+
+
+    position: sticky;
+    bottom: 0;
+    top: 100px;
+    /* 100px from the top */
+    left: 100%;
+    /* 20px from the left */
+
+    display: flex;
+    justify-content: end;
+    width: fit-content;
+
+
+    border-radius: 100px;
+}
+
+.position_for_fab_button i {
+
+    font-size: 20px;
+
+}
