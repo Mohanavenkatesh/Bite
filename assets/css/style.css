@@ -1,71 +1,127 @@
-
 /* .hero-section */
 
-.herosec{
+.herosec {
     height: 100vh;
-   background-image: url(../img/herosection.jpg);
-   background-size: cover;
+    background-image: url(../img/herosection.jpg);
+    background-size: cover;
 }
 
-.herosech1{
+.herosech1 {
     font-size: 60px;
 }
-.herosecp{
+
+.herosectexts h1 {
+    font-size: 60px;
+    padding: 0px 80px 0px 80px;
+}
+
+.herosectexts p {
+    font-size: 25px;
+    padding: 20px 80px 20px 80px;
+}
+
+.herosectexts a {
+    width: 30px;
+    margin: 80px 80px 0px 80px;
+}
+
+@media screen and (max-width:500px) {
+
+    .herosectexts h1 {
+        font-size: 50px;
+        padding: 0px 40px 0px 40px;
+    }
+
+    .herosectexts p {
+        font-size: 20px;
+        padding: 20px 40px 20px 40px;
+    }
+
+    .herosectexts a {
+        width: 30px;
+        margin: 80px 40px 0px 40px;
+    }
+
+}
+
+.herosecp {
     font-size: 22px;
 }
-.herosecbtn{
+
+.herosecbtn {
     padding: 10px 150px 10px 150px;
 }
-.herosecbtn:hover{
+
+.herosecbtn:hover {
     transform: scale(1.05);
     transition: all 0.2s linear;
 }
 
-.animation-btn:hover{
+.animation-btn:hover {
     transform: scale(1.05);
     transition: all 0.2s linear;
 }
 
-.animaation:hover{
+.animaation:hover {
     transform: scale(1.05);
     transition: all 0.2s linear;
 }
 
-.navbar button:hover::after{
+.navbar button:hover::after {
     width: 100%;
 }
-.navbar{
+
+.navbar {
     height: 100vh;
 }
-.navbar .col-lg{
+
+.navbar .col-lg {
     width: fit-content;
 }
+
 .item {
     width: 120px;
 }
-.whybits-icon{
-    font-size: 35px;
+
+.whybits-icon {
+    font-size: 20px;
 }
-.fa-arrow-up{
+
+.fa-arrow-up {
     font-size: 40px;
     position: relative;
     animation: fa-arrow-up 2s infinite;
     animation-timing-function: linear;
 }
-.fa-arrow-up:hover{
-transform: scale(1.20);
+
+.fa-arrow-up:hover {
+    transform: scale(1.20);
 }
+
 @keyframes fa-arrow-up {
-    from{top:30px}
-    to{top: 0px;}
+    from {
+        top: 30px
+    }
+
+    to {
+        top: 0px;
+    }
 }
-.linkshover:hover{
-    transform: scale(1.02);
+
+.linkshover {
+    text-decoration: none;
+}
+
+.linkshover:hover {
+
+    text-decoration: underline;
+
 }
 
 .hero-section-btn:hover {
     transform: scale(1.03);
 }
+
 .howtousesection-btn:hover {
     transform: scale(1.03);
 }
@@ -73,31 +129,35 @@ transform: scale(1.20);
 #howtousesectionimg:hover {
     transform: scale(1.03);
 }
+
 .howtousesection-btn:hover {
     transform: scale(1.03);
 }
 
-.about-div-sm{
+.about-div-sm {
     background-color: aquamarine;
     width: fit-content;
 }
 
-.nav-link:hover{
-transform: scale(1.1);
+.nav-link:hover {
+border-bottom: 1px solid black; 
 }
 
 @media screen and (max-width:500px) {
     .hero-section {
         padding: 10px;
     }
+
     .hero-section-btn {
         padding: 10px 10px 10px 10px;
     }
-    .whybits-div-two{
+
+    .whybits-div-two {
         display: block;
     }
 }
-.aboutcontenth1{
+
+.aboutcontenth1 {
     padding: 150px 0px 150px 0px;
     font-size: 60px;
 }
@@ -109,7 +169,24 @@ transform: scale(1.1);
     transition: all 0.3s linear;
 }
 
-.faqbackground{
+.faqbackground {
     background-color: transparent;
+}
+
+.faq-1-border {
+
+    width: 100%;
+    /* border-bottom: 1px solid black; */
+    border-top: 0px solid rgb(255, 255, 255);
+    border-left: 0px solid rgb(255, 255, 255);
+    border-right: 0px solid rgb(255, 253, 253);
+
+}
+
+.smaller_text {
+
+
+    font-size: 20px;
+
 }
 
