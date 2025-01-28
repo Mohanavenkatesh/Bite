@@ -52,6 +52,10 @@
     padding: 10px 150px 10px 150px;
 }
 
+.transparent{
+    background-color: transparent;
+}
+
 .herosecbtn:hover {
     transform: scale(1.05);
     transition: all 0.2s linear;
@@ -67,13 +71,7 @@
     transition: all 0.2s linear;
 }
 
-.navbar button:hover::after {
-    width: 100%;
-}
-
-.navbar {
-    height: 100vh;
-}
+.
 
 .navbar .col-lg {
     width: fit-content;
@@ -139,9 +137,6 @@
     width: fit-content;
 }
 
-.nav-link:hover {
-border-bottom: 1px solid black; 
-}
 
 @media screen and (max-width:500px) {
     .hero-section {
