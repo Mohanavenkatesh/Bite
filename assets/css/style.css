@@ -1,12 +1,38 @@
-
-
-
 /* .hero-section */
 
 .herosec {
     height: 100vh;
     background-image: url(../img/herosection.jpg);
     background-size: cover;
+}
+
+.herosech111 {
+    width: 300px;
+}
+
+@media screen and (max-width:500px) {
+
+    .herosec {
+        background-image: none;
+        color: black;
+    }
+
+    .herosec h1 {
+
+        color: black;
+    }
+
+
+    .herosec p {
+        background-image: none;
+        color: black;
+    }
+
+
+    .herosech111 {
+        width: 300px;
+    }
+
 }
 
 .herosech1 {
@@ -55,7 +81,7 @@
     padding: 10px 150px 10px 150px;
 }
 
-.transparent{
+.transparent {
     background-color: transparent;
 }
 
@@ -74,9 +100,7 @@
     transition: all 0.2s linear;
 }
 
-.
-
-.navbar .col-lg {
+. .navbar .col-lg {
     width: fit-content;
 }
 
@@ -189,7 +213,7 @@
 }
 
 
-.footer-link:hover{
+.footer-link:hover {
 
     text-decoration: underline;
 

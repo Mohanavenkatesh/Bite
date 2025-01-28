@@ -6,3 +6,9 @@
 .btn-custom {
     margin: 5px;
 }
+
+.footer-link:hover{
+
+    text-decoration: underline;
+
+}
