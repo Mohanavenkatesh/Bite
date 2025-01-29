@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar Scroll Effect</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Hero Section */
+    .hero {
+      height: 100vh;
+      background: url('./img/Home.png') no-repeat center center/cover;
+    }
+
+    /* Navbar Styles */
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+      z-index: 1000;
+      background-color: transparent;
+    }
+
+    .navbar.scrolled {
+      background-color: white;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: black;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+
+    .navbar.scrolled a {
+      color: black;
+    }
+
+    .navbar-logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .content {
+      padding: 2rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <div class="hero">
+    <div class="navbar" id="navbar">
+      <div class="navbar-logo">Logo</div>
+      <div>
+        <a href="#section1">Home</a>
+        <a href="#section2">About</a>
+        <a href="#section3">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="content" id="section1">
+    <h1>Scroll Down</h1>
+    <p>As you scroll, the navbar background will change color.</p>
+  </div>
+  <div class="content" id="section2">
+    <h1>About Section</h1>
+    <p>More content here...</p>
+  </div>
+  <div class="content" id="section3">
+    <h1>Contact Section</h1>
+    <p>Contact details here...</p>
+  </div>
+
+  <script>
+
+  </script>
+</body>
+</html>
