@@ -31,23 +31,22 @@
   @media screen and (max-width:500px) {
 
       .herosec {
-         
-        
+        background-image: url(../img//mobile\ home\ page.jpg);
       }
 
-      .herosec h1 {
-
-         
+     .herosectexts {
+        position: relative;
+        bottom: 200px;
       }
 
-
-      .herosec p {
-         
-      }
-
+      .herosectexts p {
+        font-size: 85px;
+  
+    }
+     
 
       .herosech111 {
-          width: 300px;
+          width: 200px;
       }
 
   }
@@ -74,18 +73,20 @@
   @media screen and (max-width:500px) {
 
       .herosectexts h1 {
-          font-size: 50px;
-          padding: 0px 40px 0px 40px;
+          font-size: 40px;
+          padding: 0px 40px 0px 10px;
+          color: black;
       }
 
       .herosectexts p {
-          font-size: 20px;
-          padding: 20px 40px 20px 40px;
+          font-size: 13px;
+          padding: 20px 40px 20px 10px;
+          color: black;
       }
 
       .herosectexts a {
           width: 30px;
-          margin: 80px 40px 0px 40px;
+          margin: 80px 40px 0px 10px;
       }
 
   }
