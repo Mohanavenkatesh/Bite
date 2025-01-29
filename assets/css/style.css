@@ -1,260 +1,264 @@
   /* Navbar */
 
   .nav_styling {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
 
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    z-index: 1000;
-    background-color: transparent;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+      z-index: 1000;
+      background-color: transparent;
   }
 
 
   .scrolled {
-    background-color: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      background-color: white;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
 
-/* .hero-section */
-.herosec {
-    height: 100vh;
-    background-image: url(../img/herosection.jpg);
-    background-size: cover;
-}
+  /* .hero-section */
+  .herosec {
+      height: 100vh;
+      background-image: url(../img/herosection.jpg);
+      background-size: cover;
+  }
 
-.herosech111 {
-    width: 300px;
-}
+  .herosech111 {
+      width: 300px;
+  }
 
-@media screen and (max-width:500px) {
+  @media screen and (max-width:500px) {
 
-    .herosec {
-        background-image: none;
-        color: black;
-    }
+      .herosec {
+          background-image: none;
+          color: black;
+      }
 
-    .herosec h1 {
+      .herosec h1 {
 
-        color: black;
-    }
+          color: black;
+      }
 
 
-    .herosec p {
-        background-image: none;
-        color: black;
-    }
+      .herosec p {
+          background-image: none;
+          color: black;
+      }
 
 
-    .herosech111 {
-        width: 300px;
-    }
+      .herosech111 {
+          width: 300px;
+      }
 
-}
+  }
 
-.herosech1 {
-    font-size: 60px;
-}
+  .herosech1 {
+      font-size: 60px;
+  }
 
-.herosectexts h1 {
-    font-size: 60px;
-    padding: 0px 80px 0px 80px;
-}
+  .herosectexts h1 {
+      font-size: 60px;
+      padding: 0px 80px 0px 80px;
+  }
 
-.herosectexts p {
-    font-size: 25px;
-    padding: 20px 80px 20px 80px;
-}
+  .herosectexts p {
+      font-size: 25px;
+      padding: 20px 80px 20px 80px;
+  }
 
-.herosectexts a {
-    width: 30px;
-    margin: 80px 80px 0px 80px;
-}
+  .herosectexts a {
+      width: 30px;
+      margin: 80px 80px 0px 80px;
+  }
 
-@media screen and (max-width:500px) {
+  @media screen and (max-width:500px) {
 
-    .herosectexts h1 {
-        font-size: 50px;
-        padding: 0px 40px 0px 40px;
-    }
+      .herosectexts h1 {
+          font-size: 50px;
+          padding: 0px 40px 0px 40px;
+      }
 
-    .herosectexts p {
-        font-size: 20px;
-        padding: 20px 40px 20px 40px;
-    }
+      .herosectexts p {
+          font-size: 20px;
+          padding: 20px 40px 20px 40px;
+      }
 
-    .herosectexts a {
-        width: 30px;
-        margin: 80px 40px 0px 40px;
-    }
+      .herosectexts a {
+          width: 30px;
+          margin: 80px 40px 0px 40px;
+      }
 
-}
+  }
 
-.herosecp {
-    font-size: 22px;
-}
+  .herosecp {
+      font-size: 22px;
+  }
 
-.herosecbtn {
-    padding: 10px 150px 10px 150px;
-}
+  .herosecbtn {
+      padding: 10px 150px 10px 150px;
+  }
 
 
 
-.herosecbtn:hover {
-    transform: scale(1.05);
-    transition: all 0.2s linear;
-}
+  .herosecbtn:hover {
+      transform: scale(1.05);
+      transition: all 0.2s linear;
+  }
 
-.animation-btn:hover {
-    transform: scale(1.05);
-    transition: all 0.2s linear;
-}
+  .animation-btn:hover {
+      transform: scale(1.05);
+      transition: all 0.2s linear;
+  }
 
-.animaation:hover {
-    transform: scale(1.05);
-    transition: all 0.2s linear;
-}
+  .animaation:hover {
+      transform: scale(1.05);
+      transition: all 0.2s linear;
+  }
 
-. .navbar .col-lg {
-    width: fit-content;
-}
+  . .navbar .col-lg {
+      width: fit-content;
+  }
 
-.item {
-    width: 120px;
-}
+  .item {
+      width: 120px;
+  }
 
-.whybits-icon {
-    font-size: 20px;
-}
+  .whybits-icon {
+      font-size: 20px;
+  }
 
-.fa-arrow-up {
-    font-size: 40px;
-    position: relative;
-    animation: fa-arrow-up 2s infinite;
-    animation-timing-function: linear;
-}
+  .fab_icon {
+      font-size: 40px;
+      position: relative;
+      animation: fa-arrow-up 3s infinite;
+      animation-timing-function: linear;
+  }
 
-.fa-arrow-up:hover {
-    transform: scale(1.20);
-}
+  .fa-arrow-up:hover {
+      transform: scale(1.20);
+  }
 
-@keyframes fa-arrow-up {
-    from {
-        top: 30px
-    }
+  @keyframes fa-arrow-up {
+      from {
+          top: 30px
+      }
 
-    to {
-        top: 0px;
-    }
-}
+      to {
+          top: 0px;
+      }
+  }
 
-.linkshover {
-    text-decoration: none;
-}
+  .linkshover {
+      text-decoration: none;
+  }
 
-.linkshover:hover {
+  .linkshover:hover {
 
-    text-decoration: underline;
+      text-decoration: underline;
 
-}
+  }
 
-.hero-section-btn:hover {
-    transform: scale(1.03);
-}
+  .hero-section-btn:hover {
+      transform: scale(1.03);
+  }
 
-.howtousesection-btn:hover {
-    transform: scale(1.03);
-}
+  .howtousesection-btn:hover {
+      transform: scale(1.03);
+  }
 
-#howtousesectionimg:hover {
-    transform: scale(1.03);
-}
+  #howtousesectionimg:hover {
+      transform: scale(1.03);
+  }
 
-.howtousesection-btn:hover {
-    transform: scale(1.03);
-}
+  .howtousesection-btn:hover {
+      transform: scale(1.03);
+  }
 
-.about-div-sm {
-    background-color: aquamarine;
-    width: fit-content;
-}
+  .about-div-sm {
+      background-color: aquamarine;
+      width: fit-content;
+  }
 
 
-@media screen and (max-width:500px) {
-    .hero-section {
-        padding: 10px;
-    }
+  @media screen and (max-width:500px) {
+      .hero-section {
+          padding: 10px;
+      }
 
-    .hero-section-btn {
-        padding: 10px 10px 10px 10px;
-    }
+      .hero-section-btn {
+          padding: 10px 10px 10px 10px;
+      }
 
-    .whybits-div-two {
-        display: block;
-    }
-}
+      .whybits-div-two {
+          display: block;
+      }
+  }
 
-.aboutcontenth1 {
-    padding: 150px 0px 150px 0px;
-    font-size: 60px;
-}
+  .aboutcontenth1 {
+      padding: 150px 0px 150px 0px;
+      font-size: 60px;
+  }
 
-/* hovers (shop by catagaory)*/
+  /* hovers (shop by catagaory)*/
 
-.ShopByCategory:hover {
-    transform: scale(1.03);
-    transition: all 0.3s linear;
-}
+  .ShopByCategory:hover {
+      transform: scale(1.03);
+      transition: all 0.3s linear;
+  }
 
-.faqbackground {
-    background-color: transparent;
-}
+  .faqbackground {
+      background-color: transparent;
+  }
 
-.faq-1-border {
+  .faq-1-border {
 
-    width: 100%;
-    /* border-bottom: 1px solid black; */
-    border-top: 0px solid rgb(255, 255, 255);
-    border-left: 0px solid rgb(255, 255, 255);
-    border-right: 0px solid rgb(255, 253, 253);
+      width: 100%;
+      /* border-bottom: 1px solid black; */
+      border-top: 0px solid rgb(255, 255, 255);
+      border-left: 0px solid rgb(255, 255, 255);
+      border-right: 0px solid rgb(255, 253, 253);
 
-}
+  }
 
-.smaller_text {
+  .smaller_text {
 
 
-    font-size: 20px;
+      font-size: 20px;
 
-}
+  }
 
 
-.footer-link:hover {
+  .footer-link:hover {
 
-    text-decoration: underline;
+      text-decoration: underline;
 
-}
+  }
 
-.position_for_fab_button {
+  .position_for_fab_button {
 
 
-    position: sticky;
-    bottom: 0;
-    top: 100px;
-    /* 100px from the top */
-    left: 100%;
-    /* 20px from the left */
+      position: sticky;
+      bottom: 0;
+      top: 100px;
+      /* 100px from the top */
+      left: 100%;
+      /* 20px from the left */
 
-    display: flex;
-    justify-content: end;
-    width: fit-content;
+      display: flex;
+      justify-content: end;
+      width: fit-content;
+      width: 40px;
 
+      border-radius: 100%;
+  }
 
-    border-radius: 100px;
-}
+  .position_for_fab_button i {
 
-.position_for_fab_button i {
+      font-size: 20px;
 
-    font-size: 20px;
+  }
 
-}
+  .why-bits-are-bits-img{
+    w
+  }
