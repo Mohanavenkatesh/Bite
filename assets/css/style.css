@@ -44,7 +44,9 @@
   
     }
      
-
+    .collapse{
+        background-color: white;
+    }
       .herosech111 {
           width: 200px;
       }
