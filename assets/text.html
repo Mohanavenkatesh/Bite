@@ -14,7 +14,7 @@
     /* Hero Section */
     .hero {
       height: 100vh;
-      background: url('./img/Home.png') no-repeat center center/cover;
+      background: url('../assets/img/947a29fa-clounds-optimized_10000000rs0qw0000a5000.jpg') no-repeat center center/cover;
     }
 
     /* Navbar Styles */
@@ -87,7 +87,15 @@
   </div>
 
   <script>
-
+    // JavaScript to handle scroll effect
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
   </script>
 </body>
 </html>

@@ -1,9 +1,12 @@
-    // JavaScript to handle scroll effect
-    const navbar = document.getElementById('nav_styling');
-    document.addEventListener('scroll', () => {
+document.addEventListener("DOMContentLoaded", () => {
+    const navbar = document.getElementById("navbar");
+    if (!navbar) return; // Prevent errors if navbar is missing
+  
+    window.addEventListener("scroll", () => {
       if (window.scrollY > 50) {
-        nav_styling.classList.add('bg-white');
+        navbar.classList.add("scrolled");
       } else {
-        nav_styling.classList.remove('bg-white');
+        navbar.classList.remove("scrolled");
       }
     });
+  });

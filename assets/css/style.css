@@ -1,22 +1,21 @@
-/* Navbar */
+  /* Navbar */
 
-.nav_styling {
+  .nav_styling {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-  
+
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     z-index: 1000;
     background-color: transparent;
-}
+  }
 
 
-.scrolled {
+  .scrolled {
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
+  }
 
 /* .hero-section */
 .herosec {
