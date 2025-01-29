@@ -31,19 +31,18 @@
   @media screen and (max-width:500px) {
 
       .herosec {
-          background-image: none;
-          color: black;
+         
+        
       }
 
       .herosec h1 {
 
-          color: black;
+         
       }
 
 
       .herosec p {
-          background-image: none;
-          color: black;
+         
       }
 
 
@@ -257,8 +256,4 @@
 
       font-size: 20px;
 
-  }
-
-  .why-bits-are-bits-img{
-    w
   }
